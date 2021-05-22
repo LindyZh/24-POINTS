@@ -1,0 +1,2754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>882</width>
+    <height>1128</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>882</width>
+    <height>1128</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>882</width>
+    <height>1354</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form{
+background-color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <widget class="QStackedWidget" name="background_container">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>22</y>
+     <width>838</width>
+     <height>1091</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Devanagari</family>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QStackedWidget{
+right-padding: 15px;
+	background-color: rgba(239, 239, 239,230);
+	border-radius: 20px;
+}</string>
+   </property>
+   <property name="currentIndex">
+    <number>5</number>
+   </property>
+   <widget class="QWidget" name="home_page">
+    <widget class="QPushButton" name="minibtn">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic</family>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+background-color:rgb(245, 205, 122);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton{
+padding-top:0px;
+border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>180</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resource.qrc">:/pic/bin/cards.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>230</y>
+       <width>631</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>WELCOME TO 24 POINTS GAME</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cheater_btn">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>750</y>
+       <width>371</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#cheater_btn{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton#cheater_btn:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>24 Points Cheater</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="instruction_btn">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>620</y>
+       <width>371</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#instruction_btn{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton#instruction_btn:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>What is 24 Points?</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="closebtn">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#closebtn:hover{
+background-color:rgb(219, 102, 111);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton#closebtn{
+padding-top:8px;
+border: none;
+border-radius: 30px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Χ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="game_btn">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>880</y>
+       <width>371</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#game_btn{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton#game_btn:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>Play with AI</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="background_info">
+    <widget class="QPushButton" name="minibtn_2">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic</family>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+background-color:rgb(245, 205, 122);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton{
+padding-top:0px;
+border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="closebtn_2">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#closebtn_2:hover{
+background-color:rgb(219, 102, 111);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton#closebtn_2{
+padding-top:8px;
+border: none;
+border-radius: 30px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Χ</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>180</y>
+       <width>721</width>
+       <height>861</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QAbstractScrollArea{
+background-color: rgba(255, 255, 255, 0);
+border: none;
+	font: 10pt &quot;Adobe Devanagari&quot;;
+selection-background-color: black;
+selection-color: white;
+}
+
+ QScrollBar:vertical
+ {
+     background-color: #2A2929;
+     width: 15px;
+     margin: 15px 3px 15px 3px;
+     border: 1px transparent #2A2929;
+     border-radius: 4px;
+ }
+
+ QScrollBar::handle:vertical
+ {
+     background-color: white;         /* #605F5F; */
+     min-height: 5px;
+     border-radius: 4px;
+ }
+
+ QScrollBar::sub-line:vertical
+ {
+     margin: 3px 0px 3px 0px;
+     border-image: url(:/qss_icons/rc/up_arrow_disabled.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::add-line:vertical
+ {
+     margin: 3px 0px 3px 0px;
+     border-image: url(:/qss_icons/rc/down_arrow_disabled.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::sub-line:vertical:hover,QScrollBar::sub-line:vertical:on
+ {
+
+     border-image: url(:/qss_icons/rc/up_arrow.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+
+
+ QScrollBar::add-line:vertical:hover, QScrollBar::add-line:vertical:on
+ {
+     border-image: url(:/qss_icons/rc/down_arrow.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical
+ {
+     background: none;
+ }
+
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+ {
+     background: none;
+ }
+</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Adobe Devanagari'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	The &lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;24 Points&lt;/span&gt; Game is an arithmetical card game in which the objective is to find a way to manipulate four integers so that the end result is &lt;span style=&quot; font-weight:600;&quot;&gt;24&lt;/span&gt;. For example, for the card with the number &lt;span style=&quot; font-style:italic;&quot;&gt;4, 7, 8, 8&lt;/span&gt;, a possible solution is (7-8/8)*4. &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	The original version of 24 points is played with an ordinary deck of playing cards with all the face cards removed. The aces are taken to have the value 1 and the basic game proceeds by having 4 cards dealt and the first player that can achieve the number 24 exactly using only allowed operations (addition, subtraction, multiplication, division, and parentheses) win the hand. &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	The game has been played in Shanghai since the 1960s, using playing cards. It has been known by other names, including Maths24.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;                                   &lt;span style=&quot; font-weight:600;&quot;&gt;APP Manuals&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;---------------------------------------------------------------&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;24 Points Cheater Mode: &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	This mode can simply be used to solve unknown 24 points problem (or tell you that your cards is not going to work). This 24 points cheater also works for card setting that has more than 4 cards or card setting that does not sum up to 24. To enter a value, type a valid numerical value on the blank and press enter on your keyboard. If the value sucessfully appears in the list, then this card value is a successful entrance. If you wish to delete a certain value/card, select that perticular entrance and press delete key or backspace key on your keyboard to remove it. Then, press submit to start the calculation. Note that a larger set of cards may result in longer recursive calculation time. &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;24 Points AI Gaming Mode:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;	&lt;/span&gt;This mode is perfect for boring person like you (or like me). You can play with a computer AI that technically you will have no chance to win against, but don't worry, it is adjusted to different difficulties: Novice, Intermediate, Expert. If these difficulties are still too naive/ difficult for you, you can custom your own game and have fun with it :).&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Here is how the game works&lt;/span&gt;:&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	All levels of difficulties set a minimum time for the AI to calculate a random given set of cards (&lt;span style=&quot; font-weight:600;&quot;&gt;note: AI may take longer than the minimum time in some cases, in which the game really becomes a battle between you and the AI; in other cases, it is a battle between you and the minimum time. If this is too difficult for you to understand at this moment, think the AI as a human component that will at least take a fixed amount of time to generate a valid answer. &lt;/span&gt;Don't doubt this though: the AI will always generate a correct answer.) &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	In a round of game, the timer will start right after you pressing the &amp;quot;start game&amp;quot; button, and the minimum reaction time will be given to you to find an answer. The rest of the game is quite intuitive, if you are faster than the AI, you won, and vice versa. However, returning a solution that is not valid means that you still lost, since lying is not encouraged. If the cards does not result in valid result (which sometimes does happen), just leave the answer field blank. &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Some more details:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;	- &lt;/span&gt;hotkey for undo is the left key. &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 	- Novice: If you are new to the game and you don't really want to be crushed by the AI, this mode is definitely for you. All possible values of cards comes from a traditional set of poker (1-13, joker not included). A 30 seconds window will be given to you for game playing. &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 	- Intermediate: Assuming you are already familiar with the game and how does it works, a 15 seconds window will be given to you for game playing. All possible values of cards still comes from a traditional set of poker (1-13, joker not included). &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	- Expert: You probably want to give yourself a hard time, and the AI can grant you that. Still, a traditional set of poker will be used (1-13, joker not included); however, 6 cards will be given to you and you are only given 25 seconds of thinking time. Please enjoy. &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	- Custom: So in this mode, you can either challenge yourself or use this as a chance to practice. Every possible parameters for the AI is up to you (otherwise they are set up exactly the same as the novice level) and since you should know yourself the best, you really should have a ton of fun, hopefully. The App will memorize your last change made to the setting from the game, so don't worry that you may forget the game setting that you are most comfortable with. &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;That's all, good luck and have fun!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>90</y>
+       <width>431</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>24 Points Instructions</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/file.png</normaloff>:/pic/bin/file.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>85</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+border: 4px solid;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0);}
+
+QPushButton{
+border-radius: 20px;
+background: rgba(255, 255, 255, 0);}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/back.png</normaloff>:/pic/bin/back.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="cheater">
+    <widget class="QPushButton" name="closebtn_3">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#closebtn_3:hover{
+background-color:rgb(219, 102, 111);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton#closebtn_3{
+padding-top:8px;
+border: none;
+border-radius: 30px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Χ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="minibtn_3">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic</family>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+background-color:rgb(245, 205, 122);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton{
+padding-top:0px;
+border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>85</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+border: 4px solid;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0);}
+
+QPushButton{
+border-radius: 20px;
+background: rgba(255, 255, 255, 0);}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/back.png</normaloff>:/pic/bin/back.png</iconset>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="card_list">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>280</y>
+       <width>581</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QListWidget#card_list{
+background-color: rgba(255, 255, 255, 0);
+border: 2px solid;
+border-radius: 20px;
+}
+
+QListWidget::item:selected
+{
+color:black;
+}
+
+
+ QScrollBar:vertical
+ {
+     background-color: #2A2929;
+     width: 15px;
+     margin: 15px 3px 15px 3px;
+     border: 1px transparent #2A2929;
+     border-radius: 4px;
+ }
+
+ QScrollBar::handle:vertical
+ {
+     background-color: white;         /* #605F5F; */
+     min-height: 5px;
+     border-radius: 4px;
+ }
+
+ QScrollBar::sub-line:vertical
+ {
+     margin: 3px 0px 3px 0px;
+     border-image: url(:/qss_icons/rc/up_arrow_disabled.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::add-line:vertical
+ {
+     margin: 3px 0px 3px 0px;
+     border-image: url(:/qss_icons/rc/down_arrow_disabled.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::sub-line:vertical:hover,QScrollBar::sub-line:vertical:on
+ {
+
+     border-image: url(:/qss_icons/rc/up_arrow.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+
+
+ QScrollBar::add-line:vertical:hover, QScrollBar::add-line:vertical:on
+ {
+     border-image: url(:/qss_icons/rc/down_arrow.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical
+ {
+     background: none;
+ }
+
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+ {
+     background: none;
+ }
+
+</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>190</y>
+       <width>581</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>Enter value of a card: </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cheater_title">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>90</y>
+       <width>431</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>CHEATER MODE</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/cheater.png</normaloff>:/pic/bin/cheater.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>200</y>
+       <width>271</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+background-color: rgba(255, 255, 255, 0);
+border: 2px solid;
+	border-bottom-color: rgb(0, 0, 0);
+	border-top-color: rgba(255, 255, 255, 0);
+border-left-color: rgba(255, 255, 255, 0);
+border-right-color: rgba(255, 255, 255, 0);
+}</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="clear_all_btn">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>680</y>
+       <width>201</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#clear_all_btn{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton#clear_all_btn:hover{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+	background-color: rgba(255, 1, 1, 20);
+}</string>
+     </property>
+     <property name="text">
+      <string>Clear All</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="submit_btn">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>680</y>
+       <width>201</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#submit_btn{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton#submit_btn:hover{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+	background-color: rgba(170, 255, 0, 20);
+}</string>
+     </property>
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>780</y>
+       <width>581</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>You wish to get:</string>
+     </property>
+    </widget>
+    <widget class="QWebEngineView" name="webEngineView" native="true">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>870</y>
+       <width>491</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 85, 0);</string>
+     </property>
+     <property name="url" stdset="0">
+      <url>
+       <string>about:blank</string>
+      </url>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="target_enter">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>780</y>
+       <width>321</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+background-color: rgba(255, 255, 255, 0);
+border: 2px solid;
+	border-bottom-color: rgb(0, 0, 0);
+	border-top-color: rgba(255, 255, 255, 0);
+border-left-color: rgba(255, 255, 255, 0);
+border-right-color: rgba(255, 255, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>24</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="game">
+    <widget class="QPushButton" name="minibtn_4">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic</family>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+background-color:rgb(245, 205, 122);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton{
+padding-top:0px;
+border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="closebtn_4">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#closebtn_4:hover{
+background-color:rgb(219, 102, 111);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton#closebtn_4{
+padding-top:8px;
+border: none;
+border-radius: 30px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Χ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>85</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+border: 4px solid;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0);}
+
+QPushButton{
+border-radius: 20px;
+background: rgba(255, 255, 255, 0);}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/back.png</normaloff>:/pic/bin/back.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cheater_title_2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>90</y>
+       <width>431</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>    GAME MODE</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/console.png</normaloff>:/pic/bin/console.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="novice_btn">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>440</y>
+       <width>371</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>  Novice</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/smile-face.png</normaloff>:/pic/bin/smile-face.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="intermediate_btn">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>560</y>
+       <width>371</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>  Intermediate</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/sad.png</normaloff>:/pic/bin/sad.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="expert_btn">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>680</y>
+       <width>371</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>Expert</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/cheater.png</normaloff>:/pic/bin/cheater.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>220</y>
+       <width>631</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>Select a level of difficulty for yourself:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="custom_btn">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>800</y>
+       <width>371</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string> Custom</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/cards.png</normaloff>:/pic/bin/cards.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>100</y>
+       <width>131</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>Difficulty:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="difficulty_display">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>100</y>
+       <width>401</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back_4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>85</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+border: 4px solid;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0);}
+
+QPushButton{
+border-radius: 20px;
+background: rgba(255, 255, 255, 0);}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/back.png</normaloff>:/pic/bin/back.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="closebtn_5">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+background-color:rgb(219, 102, 111);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton{
+padding-top:8px;
+border: none;
+border-radius: 30px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Χ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="minibtn_5">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic</family>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+background-color:rgb(245, 205, 122);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton{
+padding-top:0px;
+border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>760</y>
+       <width>231</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>Min Time Count:</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="time_count">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>780</y>
+       <width>261</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="start_btn">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>250</y>
+       <width>681</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>Start Game</string>
+     </property>
+    </widget>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>330</y>
+       <width>681</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QAbstractScrollArea #scrollAreaWidgetContents {
+    background-color: rgba(255, 255, 255, 0);
+	border: 1px solid  rgba(255, 255, 255, 0);
+}
+QScrollArea{
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid  rgba(255, 255, 255, 0);
+}
+
+QScrollBar:horizontal
+ {
+     height: 15px;
+     margin: 3px 15px 3px 15px;
+     border: 1px transparent #2A2929;
+     border-radius: 4px;
+     background-color: black;    /* #2A2929; */
+ }
+
+ QScrollBar::handle:horizontal
+ {
+     background-color: white;      /* #605F5F; */
+     min-width: 5px;
+     border-radius: 4px;
+ }
+
+ QScrollBar::add-line:horizontal
+ {
+     margin: 0px 3px 0px 3px;
+     border-image: url(:/qss_icons/rc/right_arrow_disabled.png);
+     width: 10px;
+     height: 10px;
+     subcontrol-position: right;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::sub-line:horizontal
+ {
+     margin: 0px 3px 0px 3px;
+     border-image: url(:/qss_icons/rc/left_arrow_disabled.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: left;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::add-line:horizontal:hover,QScrollBar::add-line:horizontal:on
+ {
+     border-image: url(:/qss_icons/rc/right_arrow.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: right;
+     subcontrol-origin: margin;
+ }
+
+
+ QScrollBar::sub-line:horizontal:hover, QScrollBar::sub-line:horizontal:on
+ {
+     border-image: url(:/qss_icons/rc/left_arrow.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: left;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal
+ {
+     background: none;
+ }
+
+
+ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
+ {
+     background: none;
+ }</string>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>679</width>
+        <height>239</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>760</y>
+       <width>231</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>seconds</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="plus">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>580</y>
+       <width>161</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border: 2px solid black;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}
+
+QPushButton:checked{
+padding-top:5px;
+border: 5px solid black;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>+</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="minus">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>580</y>
+       <width>161</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border: 2px solid black;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}
+
+QPushButton:checked{
+padding-top:5px;
+border: 5px solid black;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>−</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="times">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>580</y>
+       <width>161</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border: 2px solid black;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}
+
+QPushButton:checked{
+padding-top:5px;
+border: 5px solid black;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>×</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="divide">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>580</y>
+       <width>161</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border: 2px solid black;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}
+
+QPushButton:checked{
+padding-top:5px;
+border: 5px solid black;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>÷</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="undo_btn">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>700</y>
+       <width>341</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding-top:5px;
+border-radius: 15px;
+border: 1px solid rgba(255, 255, 255, 0);
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 8pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>Undo</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="target_display">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>160</y>
+       <width>401</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>160</y>
+       <width>131</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>Target</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="reset_btn">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>700</y>
+       <width>341</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding-top:5px;
+border-radius: 15px;
+border: 1px solid rgba(255, 255, 255, 0);
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 8pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>Reset</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>960</y>
+       <width>111</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resource.qrc">:/pic/bin/ai.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="dont_have_sol">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>850</y>
+       <width>681</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding-top:5px;
+border-radius: 15px;
+}
+
+QPushButton:hover{
+background-color: rgba(255, 12, 109, 10);
+padding-top:5px;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>I think this set of cards do not have a solution</string>
+     </property>
+    </widget>
+    <widget class="QWebEngineView" name="formula_display" native="true">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>960</y>
+       <width>491</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="url" stdset="0">
+      <url>
+       <string>about:blank</string>
+      </url>
+     </property>
+    </widget>
+    <widget class="QLabel" name="bot_word">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>940</y>
+       <width>521</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>You are just a bit slow, here's my answer:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="custo_setting">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>110</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding-top:5px;
+border: 2px outset rgb(77, 77, 77);
+border-radius: 15px;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px outset rgb(77, 77, 77);
+border-radius: 15px;
+font: 75 8pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>Setting</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QPushButton" name="closebtn_6">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+background-color:rgb(219, 102, 111);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton{
+padding-top:8px;
+border: none;
+border-radius: 30px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Χ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="minibtn_6">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic</family>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+background-color:rgb(245, 205, 122);
+border: none;
+border-radius: 20px;
+
+}
+
+QPushButton{
+padding-top:0px;
+border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back_5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>85</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover{
+border: 4px solid;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0);}
+
+QPushButton{
+border-radius: 20px;
+background: rgba(255, 255, 255, 0);}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/pic/bin/back.png</normaloff>:/pic/bin/back.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="save_change_btn">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>920</y>
+       <width>681</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding-top:5px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+QPushButton:hover{
+padding-top:5px;
+border: 5px solid black;
+border-radius: 15px;
+font: 75 10pt &quot;Adobe Devanagari&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>300</y>
+       <width>421</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">.QSlider {
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.QSlider::groove:horizontal {
+    border: 1px solid rgba(149, 149, 149,200);
+    height: 6px;
+    background: rgba(149, 149, 149,200);
+    margin: 0 12px;
+}
+
+.QSlider::handle:horizontal {
+    background: black;
+    width: 8px;
+	border-radius:4px;
+    height: 150px;
+    margin: -24px -12px;
+}</string>
+     </property>
+     <property name="minimum">
+      <number>2</number>
+     </property>
+     <property name="maximum">
+      <number>12</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::TicksBelow</enum>
+     </property>
+     <property name="tickInterval">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="target_input">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>130</y>
+       <width>411</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid black;
+	border-bottom-color: black;
+	border-right-color: rgba(255, 255, 255, 0);
+	border-left-color: rgba(255, 255, 255, 0);
+	border-top-color: rgba(255, 255, 255, 0);
+}</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>220</y>
+       <width>231</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string># of Cards:</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="card_num_set">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>220</y>
+       <width>231</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>220</y>
+       <width>671</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>100</y>
+       <width>231</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>Target:</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="time_input">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>440</y>
+       <width>411</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid black;
+	border-bottom-color: black;
+	border-right-color: rgba(255, 255, 255, 0);
+	border-left-color: rgba(255, 255, 255, 0);
+	border-top-color: rgba(255, 255, 255, 0);
+}</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>410</y>
+       <width>231</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>AI time (s):</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>530</y>
+       <width>671</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>400</y>
+       <width>671</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>550</y>
+       <width>121</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+background-color: none;
+border: none;
+color: black;
+text-alignment: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>Card Sets: </string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="card_list_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>640</y>
+       <width>561</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QListWidget{
+background-color: rgba(255, 255, 255, 0);
+border: 1px solid;
+border-radius: 20px;
+}
+
+QListWidget::item:selected
+{
+color:black;
+}
+
+
+ QScrollBar:vertical
+ {
+     background-color: #2A2929;
+     width: 15px;
+     margin: 15px 3px 15px 3px;
+     border: 1px transparent #2A2929;
+     border-radius: 4px;
+ }
+
+ QScrollBar::handle:vertical
+ {
+     background-color: white;         /* #605F5F; */
+     min-height: 5px;
+     border-radius: 4px;
+ }
+
+ QScrollBar::sub-line:vertical
+ {
+     margin: 3px 0px 3px 0px;
+     border-image: url(:/qss_icons/rc/up_arrow_disabled.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::add-line:vertical
+ {
+     margin: 3px 0px 3px 0px;
+     border-image: url(:/qss_icons/rc/down_arrow_disabled.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::sub-line:vertical:hover,QScrollBar::sub-line:vertical:on
+ {
+
+     border-image: url(:/qss_icons/rc/up_arrow.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+
+
+ QScrollBar::add-line:vertical:hover, QScrollBar::add-line:vertical:on
+ {
+     border-image: url(:/qss_icons/rc/down_arrow.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical
+ {
+     background: none;
+ }
+
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+ {
+     background: none;
+ }
+
+</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="card_input">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>560</y>
+       <width>411</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Adobe Devanagari</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid black;
+	border-bottom-color: black;
+	border-right-color: rgba(255, 255, 255, 0);
+	border-left-color: rgba(255, 255, 255, 0);
+	border-top-color: rgba(255, 255, 255, 0);
+}</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <zorder>closebtn_6</zorder>
+    <zorder>minibtn_6</zorder>
+    <zorder>back_5</zorder>
+    <zorder>save_change_btn</zorder>
+    <zorder>target_input</zorder>
+    <zorder>label_10</zorder>
+    <zorder>horizontalSlider</zorder>
+    <zorder>card_num_set</zorder>
+    <zorder>line</zorder>
+    <zorder>label_12</zorder>
+    <zorder>time_input</zorder>
+    <zorder>label_13</zorder>
+    <zorder>line_2</zorder>
+    <zorder>line_3</zorder>
+    <zorder>label_14</zorder>
+    <zorder>card_list_2</zorder>
+    <zorder>card_input</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resource.qrc"/>
+  <include location="../../../../../.designer/backup/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

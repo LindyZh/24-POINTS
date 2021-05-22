@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="pic">
+    <file>bin/ai.png</file>
+    <file>bin/ai.png</file>
+    <file>bin/sad.png</file>
+    <file>bin/smile-face.png</file>
+    <file>bin/console.png</file>
+    <file>bin/cheater.png</file>
+    <file>bin/back.png</file>
+    <file>bin/file.png</file>
+    <file>bin/cards.png</file>
+  </qresource>
+</RCC>
