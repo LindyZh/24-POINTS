@@ -1,4 +1,5 @@
 _FYI: Detailed instructions of the game interface and functions can be viewed in the game window._
+![home_page](./bin/24_points_home.png?raw=true)
 
 # Important Stuff
 
