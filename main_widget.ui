@@ -69,13 +69,13 @@ background-color: rgb(255, 255, 255);
    </property>
    <property name="styleSheet">
     <string notr="true">QStackedWidget{
-right-padding: 15px;
+padding-right: 15px;
 	background-color: rgba(239, 239, 239,230);
 	border-radius: 20px;
 }</string>
    </property>
    <property name="currentIndex">
-    <number>5</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="home_page">
     <widget class="QPushButton" name="minibtn">
